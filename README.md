@@ -5,12 +5,13 @@ setup:
 install python 2 or 3
 install the pyopengl libraries:
   windows:
-  download the pre-built libraries from here which should include the relevant opengl and glut libs, on linux 
-  use pip.exe install XXXX.whl to install
+  download the pre-built libraries from here http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopengl which should include the relevant opengl and glut libs, on linux 
+  use: pip.exe install XXXX.whl to install
+  NOTE pip or python may not be on the PATH so explicit direction may be necessary. python is usually installed to c: and pip is located in the c:\pythonXX\Scripts direrctory
   
   linux:
   install the opengl and glut libs(also python-pip - which is seperate in some repos)
-  use pip install PyOpenGL
+  use: pip install PyOpenGL
   
 to start:
 
