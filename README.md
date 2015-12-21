@@ -31,7 +31,11 @@ pip.exe install XXXX.whl to install
   
 install the opengl and glut libs (also python-pip - which is seperate in some repos)
   
-use: pip install PyOpenGL
+use:
+
+```
+pip install PyOpenGL
+```
 
   
 ---
